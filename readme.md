@@ -1,6 +1,6 @@
 # JS Bricks
 
-Java Script functions for for Digital Analyst
+Java Script functions for Digital Analyst.
 
 # ru_translit.js
 
