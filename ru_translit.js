@@ -38,7 +38,7 @@ function ru_translit(txt){
   };
   var out = "";
   for (var w=0; w<txt.length; w++){
-    out += dict[txt[w]] ? dict[txt[w]] : txt[w];
+    out += dict[txt[w]] != undefined ? dict[txt[w]] : txt[w];
   }
   return out;
 }
